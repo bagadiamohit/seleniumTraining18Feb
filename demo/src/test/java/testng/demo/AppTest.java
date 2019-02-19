@@ -1,4 +1,4 @@
-package selenium.demo;
+package testng.demo;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

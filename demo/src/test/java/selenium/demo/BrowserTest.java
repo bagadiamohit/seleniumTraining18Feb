@@ -1,20 +1,46 @@
 package selenium.demo;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 
 public class BrowserTest {
-	@Test(priority=3)
-	public void GoogleTest() {
-		System.out.println("google Test");
+	WebDriver driver;
+	
+	@Test
+	public void ChromeTest() {
+		System.out.println("\n\n");
+		System.out.println("Entering the username");
+		driver.findElement(By.name("userName")).sendKeys("demo");
+		System.out.println("Entering the password");
+		driver.findElement(By.name("password")).sendKeys("demo");
+		System.out.println("Clicking on the Login button");
+		driver.findElement(By.name("login")).click();
+		System.out.println("Validating whether the user is able to login");
+		Assert.assertEquals(driver.findElement(By.linkText("SIGN-OFF")).getText(),"SIGN-OFF");
 	}
 
-	@Test(priority=2,enabled=false)
-	public void LinkedInTest() {
-		System.out.println("LinkedIn Test");
+	@BeforeMethod
+	public void beforeMethod() {
+		System.out.println("Initializing the setup...");
+		System.out.println("Setting the chromedriver path");
+		System.setProperty("webdriver.chrome.driver", "C:\\Mohit\\drivers\\chromedriver.exe");
+		System.out.println("Creating a chromedriver object");
+		driver = new ChromeDriver();
+		System.out.println("launching the application under test");
+		driver.get("http://www.newtours.demoaut.com/");
+		System.out.println("maximising the window");
+		driver.manage().window().maximize();
 	}
 
-	@Test(priority=1)
-	public void AccentureTest() {
-		System.out.println("Accenture Test");
+	@AfterMethod
+	public void afterMethod() {
+		System.out.println("Closing the browser");
+		driver.quit();
 	}
+
 }

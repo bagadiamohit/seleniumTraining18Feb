@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53" started-at="2019-02-19T04:57:25Z" finished-at="2019-02-19T04:57:25Z">
+  <suite name="Default suite" duration-ms="31397" started-at="2019-02-19T10:56:48Z" finished-at="2019-02-19T10:57:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53" started-at="2019-02-19T04:57:25Z" finished-at="2019-02-19T04:57:25Z">
-      <class name="selenium.demo.DataProvideDemo">
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:selenium.demo.DataProvideDemo@c038203]" name="f" duration-ms="10" started-at="2019-02-19T04:57:25Z" data-provider="dp" finished-at="2019-02-19T04:57:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mohit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="31397" started-at="2019-02-19T10:56:48Z" finished-at="2019-02-19T10:57:20Z">
+      <class name="uitest.RegisterTestMeAppTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:uitest.RegisterTestMeAppTest@224edc67]" name="beforeMethod" is-config="true" duration-ms="18053" started-at="2019-02-19T10:56:48Z" finished-at="2019-02-19T10:57:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:selenium.demo.DataProvideDemo@c038203]" name="f" duration-ms="1" started-at="2019-02-19T04:57:25Z" data-provider="dp" finished-at="2019-02-19T04:57:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Surabhi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2345]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="signUpTestMeApp()[pri:0, instance:uitest.RegisterTestMeAppTest@224edc67]" name="signUpTestMeApp" duration-ms="13301" started-at="2019-02-19T10:57:06Z" finished-at="2019-02-19T10:57:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- selenium.demo.DataProvideDemo -->
+        </test-method> <!-- signUpTestMeApp -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:uitest.RegisterTestMeAppTest@224edc67]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-02-19T10:57:20Z" finished-at="2019-02-19T10:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- uitest.RegisterTestMeAppTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
