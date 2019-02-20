@@ -1,6 +1,8 @@
 package demosByTrainer;
 
 abstract class Example1
+
+
 {
 	public abstract void Show(int num);
 	
