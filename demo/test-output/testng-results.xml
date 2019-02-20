@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31397" started-at="2019-02-19T10:56:48Z" finished-at="2019-02-19T10:57:20Z">
+  <suite name="Default suite" duration-ms="46908" started-at="2019-02-20T10:21:09Z" finished-at="2019-02-20T10:21:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31397" started-at="2019-02-19T10:56:48Z" finished-at="2019-02-19T10:57:20Z">
-      <class name="uitest.RegisterTestMeAppTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:uitest.RegisterTestMeAppTest@224edc67]" name="beforeMethod" is-config="true" duration-ms="18053" started-at="2019-02-19T10:56:48Z" finished-at="2019-02-19T10:57:06Z">
+    <test name="Default test" duration-ms="46908" started-at="2019-02-20T10:21:09Z" finished-at="2019-02-20T10:21:56Z">
+      <class name="uitest.CaseStudyTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:uitest.CaseStudyTest@224edc67]" name="beforeTest" is-config="true" duration-ms="18245" started-at="2019-02-20T10:21:09Z" finished-at="2019-02-20T10:21:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="signUpTestMeApp()[pri:0, instance:uitest.RegisterTestMeAppTest@224edc67]" name="signUpTestMeApp" duration-ms="13301" started-at="2019-02-19T10:57:06Z" finished-at="2019-02-19T10:57:20Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="productPurchase()[pri:0, instance:uitest.CaseStudyTest@224edc67]" name="productPurchase" duration-ms="27921" started-at="2019-02-20T10:21:27Z" finished-at="2019-02-20T10:21:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signUpTestMeApp -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:uitest.RegisterTestMeAppTest@224edc67]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-02-19T10:57:20Z" finished-at="2019-02-19T10:57:20Z">
+        </test-method> <!-- productPurchase -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:uitest.CaseStudyTest@224edc67]" name="afterTest" is-config="true" duration-ms="711" started-at="2019-02-20T10:21:55Z" finished-at="2019-02-20T10:21:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- uitest.RegisterTestMeAppTest -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- uitest.CaseStudyTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
